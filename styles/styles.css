@@ -1,0 +1,43 @@
+/* Styles */
+
+*{
+    font-family: 'Oswald', sans-serif
+}
+
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+/* Usos generales */
+
+section {
+    box-sizing: content-box;
+    text-align: center;
+    margin: auto;
+    padding: 250px;
+    transition: all .50s;
+}
+
+/* Buttos */
+
+button {
+    width: 150px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    background-color: #ADE1E5;
+}
+
+button:hover {
+    background-color: #79C7C5;
+}
+
+#pCount {
+    font-size: 85px;
+    margin: 20px auto;
+    background-color: aliceblue;
+    width: fit-content;
+    padding: 15px 40px;
+    border-radius: 50%;
+}
+
